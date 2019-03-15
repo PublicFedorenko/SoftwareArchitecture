@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Tamagotchi.Animal.Behavior.Walking
 {
-    public interface IWalkBehavior
+    public class DontWalk
     {
-        void Walk();
+        public void Walk()
+        {
+
+        }
     }
 }
