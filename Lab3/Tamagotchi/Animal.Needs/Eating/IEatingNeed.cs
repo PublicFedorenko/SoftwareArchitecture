@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Tamagotchi.Animal.Needs.Eating
 {
-    interface IEatNeed
+    public interface IEatingNeed
     {
+        int TimesEaten { get; set; }
+        bool IsStarving { get; set; }
+        void Eat();
     }
 }
