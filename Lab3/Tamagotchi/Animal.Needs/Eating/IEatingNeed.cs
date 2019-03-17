@@ -8,8 +8,11 @@ namespace Tamagotchi.Animal.Needs.Eating
 {
     public interface IEatingNeed
     {
+        event EventHandler<EatingEventArgs> StatusChanged;
+
         int TimesEaten { get; set; }
         bool IsStarving { get; set; }
+        DateTime EatingInterval { get; set; }
         void Eat();
     }
 }
