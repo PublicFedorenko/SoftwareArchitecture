@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tamagotchi.Animals.Interfaces;
+using Tamagotchi.Animal.Interfaces;
 
 namespace Tamagotchi.Owners
 {
