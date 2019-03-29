@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tamagotchi.Animal.Needs.Eating
+namespace Tamagotchi.Animal.Need.Eating
 {
     public class EatingEventArgs : EventArgs
     {
