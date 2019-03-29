@@ -8,7 +8,12 @@ namespace Tamagotchi.Animal.Behavior.Walking
 {
     public class WalkWithPaws : IWalkBehavior
     {
-        public void Walk()
+        public void StartWalking()
+        {
+
+        }
+
+        public void StopWalking()
         {
 
         }
