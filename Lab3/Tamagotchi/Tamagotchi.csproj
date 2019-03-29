@@ -45,14 +45,21 @@
     <Compile Include="Animal.Behavior\Flying\IFlyBehavior.cs" />
     <Compile Include="Animal.Behavior\Running\IRunBehavior.cs" />
     <Compile Include="Animal.Behavior\Walking\IWalkBehavior.cs" />
-    <Compile Include="Animal.Needs\Cleaning\ICleanNeed.cs" />
-    <Compile Include="Animal.Needs\Eating\IEatNeed.cs" />
-    <Compile Include="Animal.Needs\Veterenary\IVeterenaryNeed.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="Animal.Behavior\Walking\WalkWithPaw.cs" />
+    <Compile Include="Animal\Cat\BengalCat.cs" />
+    <Compile Include="Animal\Cat\CatEventArgs.cs" />
+    <Compile Include="Animal\Cat\ICat.cs" />
+    <Compile Include="Animal\Interfaces\IAnimal.cs" />
+    <Compile Include="Animal\Interfaces\IAlive.cs" />
+    <Compile Include="Animal\Need\Eating\EatingEventArgs.cs" />
+    <Compile Include="Animal\Need\Eating\IEatingNeed.cs" />
+    <Compile Include="Owners\IOwner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Animals\" />
+    <Folder Include="Animal\Behavior\" />
+    <Folder Include="Animal\Need\Cleaning\" />
+    <Folder Include="Owners\Person\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
