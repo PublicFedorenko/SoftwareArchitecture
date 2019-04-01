@@ -8,7 +8,6 @@ namespace Tamagotchi.Animal.Interfaces
 {
     public interface IAlive
     {
-        // there could be Health property
         bool IsAlive { get; set; }
     }
 }
