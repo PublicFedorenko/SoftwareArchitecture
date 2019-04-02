@@ -9,12 +9,9 @@ namespace Tamagotchi.Animal.Cat.States
     public interface ICatState
     {
         ICat Context { get; set; }
-        void Eat();
-        void StartWalking();
-        void StopWalking();
-        void StartTalking();
-        void StopTalking();
-        void StartRunning();
-        void StopRunning();
+        void Walk();
+        void Run();
+        void Talk();
+        void Stop();
     }
 }

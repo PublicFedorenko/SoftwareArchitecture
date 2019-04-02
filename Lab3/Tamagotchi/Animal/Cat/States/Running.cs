@@ -10,37 +10,22 @@ namespace Tamagotchi.Animal.Cat.States
     {
         public ICat Context { get; set; }
 
-        public void Eat()
+        public void Run()
         {
             throw new NotImplementedException();
         }
 
-        public void StartRunning()
+        public void Stop()
         {
             throw new NotImplementedException();
         }
 
-        public void StartTalking()
+        public void Talk()
         {
             throw new NotImplementedException();
         }
 
-        public void StartWalking()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void StopRunning()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void StopTalking()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void StopWalking()
+        public void Walk()
         {
             throw new NotImplementedException();
         }
